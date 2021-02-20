@@ -3,12 +3,12 @@
 
 WPF ile yapılmış menü. Sadece kapatma butonuna özellik eklenmiştir.
 Program örnek resimleri:
-![Sample1](https://github.com/hadvidub/CircularMenuTest/blob/master/sample.PNG)
-![Sample2](https://github.com/hadvidub/CircularMenuTest/blob/master/sample2.PNG)
-![Sample3](https://github.com/hadvidub/CircularMenuTest/blob/master/sample3.PNG)
-![Sample4](https://github.com/hadvidub/CircularMenuTest/blob/master/sample4.PNG)
-![Sample5](https://github.com/hadvidub/CircularMenuTest/blob/master/sample5.PNG)
-![Sample6](https://github.com/hadvidub/CircularMenuTest/blob/master/sample6.PNG)
-![Sample7](https://github.com/hadvidub/CircularMenuTest/blob/master/sample7.PNG)
+!<img src="sample.PNG" alt="left face" align="left" width="300" height="300"> 
+!<img src="sample2.PNG" alt="left face" align="left" width="300" height="300">
+!(<img src="sample3.PNG" alt="left face" align="left" width="300" height="300">
+!<img src="sample4.PNG" alt="left face" align="left" width="300" height="300"> 
+!<img src="sample5.PNG" alt="left face" align="left" width="300" height="300"> 
+!<img src="sample6.PNG" alt="left face" align="left" width="300" height="300"> 
+!<img src="sample7.PNG" alt="left face" align="left" width="300" height="300"> 
 
 **Bu proje Youtube'deki [Lady Winnie](https://www.youtube.com/watch?v=gmpwktIsSa4) kanalından yararlanılarak yapılmıştır.
