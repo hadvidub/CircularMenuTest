@@ -9,7 +9,6 @@ Program örnek resimleri:
 <img src="sample3.PNG" alt="left face" align="left" width="300" height="300">
 <img src="sample4.PNG" alt="left face" align="left" width="300" height="300"> 
 <img src="sample5.PNG" alt="left face" align="left" width="300" height="300"> 
-<img src="sample6.PNG" alt="left face" align="left" width="300" height="300"> 
 <img src="sample7.PNG" alt="left face" align="left" width="300" height="300"> 
 
 
