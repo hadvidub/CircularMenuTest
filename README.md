@@ -8,10 +8,25 @@
   </tr>
   <tr>
     <td><img src="sample.PNG" alt="left face" align="left" width="300" height="300"></td>
+  </tr>
+   <tr>
     <td><img src="sample2.PNG" alt="left face" align="left" width="300" height="300"></td>
+  </tr>
+   <tr>
     <td><img src="sample3.PNG" alt="left face" align="left" width="300" height="300"></td>
+  </tr>
+   <tr>
     <td><img src="sample4.PNG" alt="left face" align="left" width="300" height="300"></td>
-    </tr>
+  </tr>
+   <tr>
+    <td><img src="sample5.PNG" alt="left face" align="left" width="300" height="300"></td>
+  </tr>
+   <tr>
+    <td><img src="sample6.PNG" alt="left face" align="left" width="300" height="300"></td>
+  </tr>
+   <tr>
+    <td>Bu proje Youtube'deki [Lady Winnie](https://www.youtube.com/watch?v=gmpwktIsSa4) kanalından yararlanılarak yapılmıştır.</td>
+  </tr>
 </table>
 
 
