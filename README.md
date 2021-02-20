@@ -12,4 +12,7 @@ Program örnek resimleri:
 <img src="sample6.PNG" alt="left face" align="left" width="300" height="300"> 
 <img src="sample7.PNG" alt="left face" align="left" width="300" height="300"> 
 
+
+
+
 **Bu proje Youtube'deki [Lady Winnie](https://www.youtube.com/watch?v=gmpwktIsSa4) kanalından yararlanılarak yapılmıştır.
