@@ -3,6 +3,8 @@
   <tr>
     <th>WPF ile yapılmış menü. Sadece kapatma butonuna özellik eklenmiştir.</th>
   </tr>
+</table>
+<table>
   <tr>
     <td>Program örnek resimleri:</td>
   </tr>
