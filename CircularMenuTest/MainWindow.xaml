@@ -1,0 +1,71 @@
+﻿<Window x:Class="CircularMenuTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CircularMenuTest"
+        mc:Ignorable="d" Height="400" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+    <Grid>
+        <Grid x:Name="gMenu" Grid.ColumnSpan="4" Grid.RowSpan="4" MouseDown="gMenu_MouseDown">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop x:Name="colorCircle"   Color="Gainsboro" Offset="0.888"/>
+                    <GradientStop Offset="0.945"/>
+                    <GradientStop Color="White" Offset="0.883"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid x:Name="gExit"  Grid.Row="1" Margin="10" Grid.ColumnSpan="2" Grid.Column="1" Grid.RowSpan="2" >
+                <Grid.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="Gainsboro" Offset="0.888"/>
+                        <GradientStop Offset="1"/>
+                        <GradientStop Color="#FFFAFAFA" Offset="0.883"/>
+                    </RadialGradientBrush>
+                </Grid.Background>
+                <Button x:Name="btnExit" Margin="50,44,50,56" Style="{StaticResource ButtonType1}" Foreground="{x:Null}" BorderBrush="#FFE21717" Background="#FF659A43" Click="btnExit_Click" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                    <Button.OpacityMask>
+                        <ImageBrush ImageSource="Icons/exiticon.png"/>
+                    </Button.OpacityMask>
+                </Button>
+            </Grid>
+            <Button x:Name="btn5"  Style="{StaticResource ButtonType1}" Foreground="{x:Null}" BorderBrush="#FFC0D41E" Background="#FF969696" Grid.ColumnSpan="2" Margin="57,34,95,20" Grid.Row="1" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Button.OpacityMask>
+                    <ImageBrush ImageSource="Icons/calendar.png"/>
+                </Button.OpacityMask>
+            </Button>
+            <Button x:Name="btn2"  Style="{StaticResource ButtonType1}" Foreground="{x:Null}" BorderBrush="#FF16D611" Background="#FF969696" Margin="95,34,47,10" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Button.OpacityMask>
+                    <ImageBrush ImageSource="Icons/Cart.png"/>
+                </Button.OpacityMask>
+            </Button>
+            <Button x:Name="btn4"  Style="{StaticResource ButtonType1}" Foreground="{x:Null}" BorderBrush="#FF77E844" Background="#FF969696" Grid.ColumnSpan="2" Margin="80,67,67,75" Grid.Row="2" Grid.RowSpan="2" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Button.OpacityMask>
+                    <ImageBrush ImageSource="Icons/profile.png"/>
+                </Button.OpacityMask>
+            </Button>
+            <Button x:Name="btn3"  Style="{StaticResource ButtonType1}" Foreground="{x:Null}" BorderBrush="#FF18D982" Background="#FF969696" Margin="67,76,85,75" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Button.OpacityMask>
+                    <ImageBrush ImageSource="Icons/sett.png"/>
+                </Button.OpacityMask>
+            </Button>
+            <Button x:Name="btn1"  Style="{StaticResource ButtonType1}" Foreground="{x:Null}" BorderBrush="#FFAA12DF" Background="#FF969696" Margin="73,43,69,0" Grid.Column="1" Grid.ColumnSpan="2" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+                <Button.OpacityMask>
+                    <ImageBrush ImageSource="Icons/image.png"/>
+                </Button.OpacityMask>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
